@@ -1,11 +1,13 @@
-package com.example.project_games;
+package com.example.project_games.controller;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class Hello_World {
-    public static void main(String[] args){
-        SpringApplication.run(ProjectGamesApplication.class, args);
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+@RestController
+public class HelloWorldController {
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello World";
     }
 }
