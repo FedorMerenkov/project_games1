@@ -1,0 +1,16 @@
+[33m0a779a6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mНовая-ветка-1[m[33m, [m[1;31morigin/Новая-ветка-1[m[33m)[m fix: controller endpoint
+[33mb83481d[m fix: controller endpoint
+[33m7dc1a9e[m feat: add controller endpoint
+[33m108e3da[m feat: add controller endpoint
+[33m61f05ea[m feat: add hello world endpoint
+[33m7cf270d[m deps: add spring-boot-starter-web
+[33m0526ebb[m Revert "deps: add spring-boot-starter-web"
+[33maba96be[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m deps: add spring-boot-starter-web
+[33m1980381[m Merge pull request #1 from FedorMerenkov/demo-branch
+[33m1195711[m убрал пробелы
+[33m79a5897[m demo3
+[33m8a2bbd5[m demo2
+[33m425ddc7[m[33m ([m[1;32mновая-ветка[m[33m)[m demo1
+[33mc7b3e6c[m[33m ([m[1;31morigin/новая-ветка[m[33m)[m demo
+[33m6012b18[m demo
+[33mf631ec3[m привет

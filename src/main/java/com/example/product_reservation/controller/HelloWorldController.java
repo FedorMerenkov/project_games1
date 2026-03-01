@@ -1,4 +1,4 @@
-package com.example.project_games.controller;
+package com.example.product_reservation.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
