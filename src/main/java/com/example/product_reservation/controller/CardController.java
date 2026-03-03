@@ -5,19 +5,19 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 import com.example.product_reservation.model.Category;
-import com.example.product_reservation.service.Service;
+import com.example.product_reservation.service.CotigoryService;
+
 @RestController
 @RequestMapping("/categories")
 public class CardController {
 
-    private final Service service;
+    private final CotigoryService service;
 
-    public CardController(Service service) {
+    public CardController(CotigoryService service) {
         this.service = service;
     }
 
