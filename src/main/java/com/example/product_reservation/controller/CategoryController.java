@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 import com.example.product_reservation.model.Category;
-import com.example.product_reservation.service.CotigoryService;
+import com.example.product_reservation.service.CatigoryService;
 
 @RestController
-@RequestMapping("/categories")
-public class CardController {
+@RequestMapping(ApiPaths.API_V1 +"/categories")
+public class CategoryController {
 
-    private final CotigoryService service;
+    private final CatigoryService service;
 
-    public CardController(CotigoryService service) {
+    public CategoryController(CatigoryService service) {
         this.service = service;
     }
 
@@ -57,13 +57,4 @@ public class CardController {
     public void delete(@PathVariable Long id) {
         service.delete(id);
     }
-//
-//    @RestController
-//    public static class TestController {
-//
-//        @GetMapping("/info")
-//        public String info() {
-//            return "API работает";
-//        }
-//    }
 }
