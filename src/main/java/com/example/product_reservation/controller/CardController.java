@@ -57,4 +57,13 @@ public class CardController {
     public void delete(@PathVariable Long id) {
         service.delete(id);
     }
+//
+//    @RestController
+//    public static class TestController {
+//
+//        @GetMapping("/info")
+//        public String info() {
+//            return "API работает";
+//        }
+//    }
 }
